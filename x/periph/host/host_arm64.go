@@ -10,4 +10,9 @@ import (
 	_ "periph/x/periph/host/bcm283x"
 	_ "periph/x/periph/host/pine64"
 	_ "periph/x/periph/host/rpi"
+	// for Talkkonnect on OrangePi Zero2 running Ubuntu 22.04 - Jammy server. This ubuntu version is 64bit OS comment above and uncomment below
+        // _ "github.com/talkkonnect/periph/x/periph/host/allwinner"
+        // _ "github.com/talkkonnect/periph/x/periph/host/bcm283x"
+        // _ "github.com/talkkonnect/periph/x/periph/host/pine64"
+        // _ "github.com/talkkonnect/periph/x/periph/host/rpi"	
 )
